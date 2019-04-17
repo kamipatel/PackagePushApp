@@ -3,7 +3,7 @@
 Brief:
 This labapp gets installed in partner's LMA/PBO org and can be used to schedule package push upgrades. This is similar in functionality to package push upgrade functionality that is under Setup. It has following features. 
 - Can connect to multiple packaging org and schedule package push upgrades right from LMA 
-- USers can create custom List views, with 
+- LMA users can create custom List views with right filters e.g. which package, which subscribers (e.g. North America based, EU based etc). This listviews shows up in drop down box of custom app page. User can select up to 2000 records in custom app for scheduling 
 
 Disclaimer:
 This app is for demo purposes only. Please use it at your own risk. This app use Lightning Web Components. Feel free to clone the repo and extend the functionality.
