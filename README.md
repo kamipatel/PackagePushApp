@@ -1,11 +1,19 @@
 # PackagePushDocs
 Package Push labapp documentation
 
+Brief:
+This labapp gets installed in partner's LMA/PBO org and can be used to schedule package push upgrades. This is similar in functionality to package push upgrade functionality that is under Setup. It has following features. 
+- Can connect to multiple packaging org and schedule package push upgrades right from LMA 
+- USers can create custom List views, with 
+
+![Application in action](/images/pushupgrade-labapp-UI.gif)
+
+
 Step 0 - Prerequisite
 Enable lightning in your LMA org
 Make sure my domain is enabled on LMA org and Packaging org 
 In partner portal create support ticket to Enable Push Package feature and Push API feature on the packaging org (if either are not already enabled)
-Setup from Chrome browser 
+Use Chrome browser for following steps
 
 Step 1 - Set up Trust between LMA and packaging org
 Note: All following steps needs to be done in LMA org
