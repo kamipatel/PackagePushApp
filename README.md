@@ -18,7 +18,7 @@ Note: Following steps needs to be performed in LMA org. Perform following sub st
 
 ### Step 1.1 - Create connected app 
 From Setup-> Apps, create a new connected app name reflecting package name e.g “pkg1 Connected App”. (You can give any name). 
-![Create connected app](/images/create-connectedapp.png.gif)
+![Create connected app](/images/create-connectedapp.png)
 For Copy-Paste:
 Login URL: https://login.salesforce.com
 
@@ -28,7 +28,7 @@ Make sure Permitted users are as selected as "Admin approved users are pre autho
 Step 1.2 - Create new Auth. Provider for this “pkg1_auth_Provider”. (You can give any name)
 From Setup, create new auth provider as shown below. 
 Note: Pick Salesforce as auth provider. Copy Consumer Key and Secret from Step 1.1 here
-![Create Auth provider](/images/create-connectedapp.png.gif)
+![Create Auth provider](/images/create-connectedapp.png)
 For Copy-Paste:
 Authorize endpoint URL: https://login.salesforce.com/services/oauth2/authorize
 Token endpoint URL: https://login.salesforce.com/services/oauth2/token
@@ -37,10 +37,10 @@ Make sure to wait for 10 minutes for above changes to get deployed and propagate
 
 Step 1.3 - Get Callback URL from Step 1.2 
 Go to connected app created in Step 1.1 and update as shown 
-![Update connected app](/images/update-connectedapp.gif)
+![Update connected app](/images/update-connectedapp.png)
 
 Step 1.4 - Create Named Credentials “packagingOrg” (You can give any name)
-![Create named credentials](/images/create-named-credentials.gif)
+![Create named credentials](/images/create-named-credentials.png)
 Note: Make sure to set Scope to “refresh_token full”. Also 
 Keep your packaging org user credentials (with Admin profile) handy to establish trust.
 For Copy-Paste:
