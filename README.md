@@ -5,6 +5,9 @@ This labapp gets installed in partner's LMA/PBO org and can be used to schedule 
 - Can connect to multiple packaging org and schedule package push upgrades right from LMA 
 - USers can create custom List views, with 
 
+Disclaimer:
+This app is for demo purposes only. Please use it at your own risk. This app use Lightning Web Components. Feel free to clone the repo and extend the functionality.
+
 ![Application in action](/images/pushupgrade-labapp-UI.gif)
 
 ### Step 0 - Prerequisite
@@ -55,6 +58,10 @@ Step 1.5 - Edit Named credentials Auth provider
 Edit Auth provider settings and update Create Named Credentials with URL as shown in {mydomain}.my.salesforce.com format. This mydomain is of packaging org. On Authorize packaging org again
 
 
-### Step 2 - Create/update lookup mapping records i.e. packaging org named credentials with a package record
+### Step 2 - Create/update lookup mapping records and validate connection to packaging orgs i.e. packaging org named credentials with a package record
+
+
+### Step 3 - Use the app to schedule package upgrade. Note: Go slow...Start with 1 package and schedule in future for one subscriber only
+
 
 
